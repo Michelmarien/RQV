@@ -1,6 +1,10 @@
 package RQV;
 
 public enum StatutDeclaration {
-    EnCour("En cours de traitement"),
+    EnCour("En cours de traitement");
+
     Resolu("Déclaration résolue");
+
+    StatutDeclaration(String s) {
+    }
 }
