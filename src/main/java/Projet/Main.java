@@ -122,10 +122,10 @@ public class Main {
                 case 2:
                     System.out.println("[AUTHENTIFICATION AGENT]");
 
-                    System.out.print("Matricule : ");
+                    System.out.print("Matricule (saisir agent) : ");
                     String matricule = scanner.nextLine();
 
-                    System.out.print("Mot de passe : ");
+                    System.out.print("Mot de passe (saisir police) : ");
                     String motDePasse = scanner.nextLine();
 
 
@@ -144,8 +144,7 @@ public class Main {
                         System.out.println("3. Enregistrer un objet trouvé");
                         System.out.println("4. Modifier l'état d'une déclaration");
                         System.out.println("5. Générer le RQV (Rapport Quotidien)");
-                        System.out.println("6. Afficher les statistiques");
-                        System.out.println("7. Se déconnecter");
+                        System.out.println("6. Se déconnecter");
                         System.out.print("\nVotre choix : ");
                         int choixAgent = scanner.nextInt();
                         scanner.nextLine();
